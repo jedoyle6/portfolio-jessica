@@ -88,6 +88,7 @@ p {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 ul {
@@ -106,4 +107,12 @@ button.contact {
     height: 45px;
     border: none;
     margin: 5px;
+}
+
+@media screen and (min-width: 750px) {
+    p {
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
