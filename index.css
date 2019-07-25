@@ -11,11 +11,13 @@ h1 {
     margin-top: 60px;
     font-size: 36px;
     text-align: center;
+    font-family: 'Philosopher', sans-serif;
 }
 
 h2 {
     font-size: 26px;
     text-align: center;
+    font-family: 'Philosopher', sans-serif;
 }
 
 h3 {
@@ -23,6 +25,7 @@ h3 {
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
+    font-family: 'Philosopher', sans-serif;
 }
 
 p {
@@ -30,6 +33,7 @@ p {
     line-height: 22px;
     margin-left: 10%;
     margin-right: 10%;
+    font-family: 'Muli', sans-serif;
 }
 
 .imgplaceholder {
@@ -92,6 +96,7 @@ a {
 }
 
 ul {
+    font-family: 'Muli', sans-serif;
     text-align: center;
     list-style: none;
     padding: 0px;
@@ -103,16 +108,23 @@ ul {
 }
 
 button.contact {
+    font-family: 'Muli', sans-serif;
     width: 80px;
     height: 45px;
     border: none;
     margin: 5px;
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 700px) {
     p {
-        width: 600px;
+        width: 560px;
         margin-left: auto;
         margin-right: auto;
     }
+}
+
+.caption {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
 }
