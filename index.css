@@ -4,12 +4,12 @@
 }
 
 body {
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(249, 249, 253);
 }
 
 h1 {
     margin-top: 60px;
-    font-size: 36px;
+    font-size: 50px;
     text-align: center;
     font-family: 'Philosopher', sans-serif;
 }
@@ -36,10 +36,9 @@ p {
     font-family: 'Muli', sans-serif;
 }
 
-.imgplaceholder {
-    width: 300px;
-    height: 200px;
-    border: 1px solid black;
+.hero {
+    width: 300px;    
+    display: block;
     margin-left: auto;
     margin-right: auto;
 }
@@ -63,7 +62,7 @@ p {
     display: flex;
     position: fixed;
     justify-content: flex-end;
-    background-color: lightgray;
+    background-color: cornflowerblue;
     width: 100%;
     margin-top: -60px;
 }
@@ -72,11 +71,14 @@ p {
     margin-top: 10px;
     margin-bottom: 10px;
     margin-right: 10px;
+    color: white;
+    font-size: 16px;
 }
 
 .caption {
     margin-top: 8px;
     margin-bottom: 8px;
+    color: darkblue;
 }
 
 .techIcons {
@@ -92,7 +94,9 @@ p {
 
 a {
     text-decoration: none;
-    color: black;
+    color: inherit;
+    font-style: inherit;
+    font-family: inherit;
 }
 
 ul {
@@ -112,8 +116,20 @@ button.contact {
     width: 80px;
     height: 45px;
     border: none;
+    border-radius: 4px;
     margin: 5px;
+    background-color: rgb(84, 207, 131);
+    font-size: 16px;
+    color: white;
 }
+
+button:hover {
+    transform: scale(1.1);
+    transition: all 0.2s ease;
+    background-color: rgb(64, 153, 98);
+
+}
+
 
 @media screen and (min-width: 700px) {
     p {
@@ -121,10 +137,76 @@ button.contact {
         margin-left: auto;
         margin-right: auto;
     }
+
+    button.contact {
+        width: 120px;
+        height: 60px;
+        
+        
+    }
 }
 
 .caption {
     width: 300px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.project-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.project {
+    width: 320px;
+    height: 510px;
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 8px;    
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.project:hover {
+    transform: scale(1.02);
+    transition: all 0.5s ease; 
+}
+
+@media screen and (min-width: 700px) {
+    .project-box {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+.contact-info {
+    margin-bottom: 30px;
+    
+}
+
+.screenshot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    border-radius: 4px;
+}
+
+.derry {
+    background-color: gainsboro;
+}
+
+.derry:hover {
+    background-color: rgb(175, 175, 175);
+}
+
+.bookends {
+    background-color: gainsboro;
+}
+
+.bookends:hover {
+    background-color: rgb(175, 175, 175);
 }
