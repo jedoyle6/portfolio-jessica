@@ -1,157 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssnormalize/cssnormalize-min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Philosopher&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <title>Jessica Doyle</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssnormalize/cssnormalize-min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Philosopher&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <title>Jessica Doyle</title>
 </head>
 <body>
-    <nav class="navigation">
-        <div class="navbar">
-            <ul>
-                <li class="inline-block navitem"><a href="#about-me">About Me</a></li>
-                <li class="inline-block navitem"><a href="#projects">Projects</a></li>
-                <li class="inline-block navitem"><a href="#contact">Contact</a></li>
-            </ul>
-            
+
+  <nav class="navigation">
+    <div class="navbar">
+      <ul>
+        <li class="inline-block navitem"><a href="#about-me">About Me</a></li>
+        <li class="inline-block navitem"><a href="#projects">Projects</a></li>
+        <li class="inline-block navitem"><a href="#contact">Contact</a></li>
+      </ul>        
+    </div>
+  </nav>
+
+  <main>      
+
+    <section id="#about-me">
+      <h1><a name="about-me">Hi, I'm Jessica</a></h1>
+      <img class="hero" src="vector-image.png">
+      <p class = "intro">
+          But my friends call me Jess, and you can, too!
+          I am a web developer currently enrolled in Thinkful’s Fullstack Engineering 
+          Immersion bootcamp. I enjoy problem solving and writing clean, efficient 
+          code to deliver a satisfying user experience. 
+          <br>
+          <br>
+          Outside work, you can often find me with my nose in a book, 
+          at a table playing a new board game, 
+          or taking a walk in the great outdoors.
+      </p>
+      <br>
+    </section>
+
+      
+    <section id="projects">  
+
+      <h2><a name="projects">My Projects Include:</a></h2>
+      <div class="project-box">
+
+        <div class="project gofetch">
+          <img class="screenshot" src="quiz-screenshot.png">
+          <h3>Go Fetch!</h3>
+          <div class="iconbox">
+            <img class="techIcons" src="html-css-js-icons.png">   
+          </div>
+          <p class="caption">
+            An app that allows you to play Go Fish against an AI opponent, 
+            with free play as well as profile creation and leaderboard ranking.
+            Written with JS/CSS/HTML, React, Node, Express, and PostgreSQL.
+          </p>
+          <div class="iconbox">                        
+            <a href="https://github.com/jedoyle6/goFetch-client" target="_blank">
+              <i id="repo-link" class="fab fa-github fa-2x"></i>
+            </a>
+            <a href="https://go-fetch.jessicaedoyle.now.sh/" target="_blank">
+              <i id="livehost-link" class="far fa-file fa-2x"></i>
+            </a>
+          </div>
         </div>
-    </nav>
 
-    <main>
+        <div class="project whatdo">
+          <img class="screenshot" src="quiz-screenshot.png">
+          <h3>What Do?</h3>
+          <div class="iconbox">
+            <img class="techIcons" src="html-css-js-icons.png">   
+          </div>
+          <p class="caption">
+            An app that allows you to search for fun events and check the weather near
+            your location, as well as save event details to your profile for later reference.
+            Written with JS/CSS/HTML, React, Node, Express, and PostgreSQL.
+          </p>
+          <div class="iconbox">                        
+            <a href="https://github.com/thinkful-ei-firefly/whatdo-client" target="_blank">
+              <i id="repo-link" class="fab fa-github fa-2x"></i>
+            </a>
+            <a href="https://whatdo.now.sh/" target="_blank">
+              <i id="livehost-link" class="far fa-file fa-2x"></i>
+            </a>
+          </div>
+        </div>
 
-        
+        <div class="project easyitalian">
+          <img class="screenshot" src="quiz-screenshot.png">
+          <h3>Easy Italian</h3>
+          <div class="iconbox">
+            <img class="techIcons" src="html-css-js-icons.png">   
+          </div>
+          <p class="caption">
+            An app that uses a spaced repetition algorithm 
+            to help a user learn and memorize Italian vocabulary words.
+            Written with JS/CSS/HTML, React, Node, Express, and PostgreSQL.
+          </p>
+          <div class="iconbox">                        
+            <a href="https://github.com/thinkful-ei-firefly/spaced-repetition-client-fabian-jessica" target="_blank">
+              <i id="repo-link" class="fab fa-github fa-2x"></i>
+            </a>
+            <a href="https://easy-italian-app.now.sh/" target="_blank">
+              <i id="livehost-link" class="far fa-file fa-2x"></i>
+            </a>
+          </div>
+        </div>
 
-        <section id="#about-me">
-            <h1><a name="about-me">Hi, I'm Jessica</a></h1>
+        <div class="project derry">
+          <img class="screenshot" src="quiz-screenshot.png">
+          <h3>Can You Make it Out of Derry?<br>The IT Quiz App</h3>
+          <div class="iconbox">
+            <img class="techIcons" src="html-css-js-icons.png">   
+          </div>
+          <p class="caption">
+            A quiz app for testing your knowledge of Stephen King’s IT series.
+            Written with JS/CSS/HTML.
+          </p>
+          <div class="iconbox">                        
+            <a href="https://github.com/thinkful-ei-firefly/QuizAPP_JK" target="_blank">
+              <i id="repo-link" class="fab fa-github fa-2x"></i>
+            </a>
+            <a href="https://thinkful-ei-firefly.github.io/QuizAPP_JK/quiz.html" target="_blank">
+              <i id="livehost-link" class="far fa-file fa-2x"></i>
+            </a>
+          </div>
+        </div>
 
-            <!--Image here?-->
-            <img class="hero" src="vector-image.png">
-            <!-- <div class="imgplaceholder"></div> -->
+        <div class="project bookends">
+          <img class="screenshot" src="bookends-screenshot.PNG">
+          <h3>Bookends</h3>
+          <div class="iconbox">
+            <img class="techIcons" src="html-css-js-icons.png">   
+          </div>
+          <p class="caption">
+            An API-powered app to store and manage your favorite bookmarks from around the web.
+            Written with JS/CSS/HTML.
+          </p>
+          <div class="iconbox">                        
+              <a href="https://github.com/thinkful-ei-firefly/jessica-bookmarks-app" target="_blank">
+                <i id="repo-link" class="fab fa-github fa-2x"></i>
+              </a>
+              <a href="https://thinkful-ei-firefly.github.io/jessica-bookmarks-app/index.html" target="_blank">
+                <i id="livehost-link" class="far fa-file fa-2x"></i>
+              </a>
+          </div>            
+        </div>
 
-            <p class = "intro">
-                But my friends call me Jess, and you can, too!
-                I am a web developer currently enrolled in Thinkful’s Fullstack Engineering 
-                Immersion bootcamp. I enjoy problem solving and writing clean, efficient 
-                code to deliver a satisfying user experience. 
-                <br>
-                <br>
-                Outside work, you can often find me with my nose in a book, 
-                at a table playing a new board game, 
-                or taking a walk in the great outdoors.
-            </p>
-            <br>
-        </section>
+      </div>
 
-
-       
-        <section id="projects">
-            
-            
-
-            <h2><a name="projects">My Projects Include:</a></h2>
-                
-
-            <div class="project-box">
-
-                <div class="project derry">
-                
-                    <img class="screenshot" src="quiz-screenshot.png">
-
-                    <h3>Can You Make it Out of Derry?<br>The IT Quiz App</h3>
-                    <div class="iconbox">
-                        <img class="techIcons" src="html-css-js-icons.png">   
-                    </div>
-                    <p class="caption">
-                        A quiz app for testing your knowledge of Stephen King’s IT series.
-                        Written with JS/CSS/HTML.
-                    </p>
-                    <div class="iconbox">                        
-                        <a href="https://github.com/thinkful-ei-firefly/QuizAPP_JK" target="_blank">
-                            <i id="repo-link" class="fab fa-github fa-2x"></i>
-                        </a>
-                        <a href="https://thinkful-ei-firefly.github.io/QuizAPP_JK/quiz.html" target="_blank">
-                            <i id="livehost-link" class="far fa-file fa-2x"></i>
-                        </a>
-                    </div>
-                    
-                </div>
-
-                <div class="project bookends">
-                
-                    <img class="screenshot" src="bookends-screenshot.PNG">
-
-                    <h3>Bookends</h3>
-                    <div class="iconbox">
-                        <img class="techIcons" src="html-css-js-icons.png">   
-                    </div>
-                    <p class="caption">
-                        An API-powered app to store and manage your favorite bookmarks from around the web.
-                        Written with JS/CSS/HTML.
-                    </p>
-                    <div class="iconbox">                        
-                        <a href="https://github.com/thinkful-ei-firefly/jessica-bookmarks-app" target="_blank">
-                            <i id="repo-link" class="fab fa-github fa-2x"></i>
-                        </a>
-                        <a href="https://thinkful-ei-firefly.github.io/jessica-bookmarks-app/index.html" target="_blank">
-                            <i id="livehost-link" class="far fa-file fa-2x"></i>
-                        </a>
-                    </div>
-                    
-                </div>
-
-                
-
-
-            
-
-            </div>
-
-        
-           
-
-        </section>
-        
-        
+    </section>
 
 
-        <section id="contact">
-                <h2><a name="contact">Let's Get in Touch:</a></h2>
-                <ul class="contact-info">
-                    <li class="inline-block">
-                        <a href="mailto:jessica.e.doyle@gmail.com" target="_blank">
-                            <button type="button" class="contact email">
-                                <i class="fas fa-envelope"></i>
-                                <br>Email
-                            </button>
-                        </a>
-                    </li>
-                    <li class="inline-block">
-                        <a href="https://www.linkedin.com/in/jess-doyle/" target="_blank">
-                            <button type="button" class="contact linkedin">
-                                <i class="fab fa-linkedin"></i>
-                                <br>LinkedIn
-                            </button>
-                        </a>
-                    </li>
-                    <li class="inline-block">
-                        <a href="https://github.com/jedoyle6">
-                            <button type="button" class="contact github" target="_blank">
-                                <i class="fab fa-github"></i>
-                                <br>Github
-                            </button>
-                        </a>
-                    </li>
-                </ul>
-            </section>
+    <section id="contact">
 
+      <h2><a name="contact">Let's Get in Touch:</a></h2>
+      <ul class="contact-info">
 
-    </main>
+        <li class="inline-block">
+          <a href="mailto:jessica.e.doyle@gmail.com" target="_blank">
+            <button type="button" class="contact email">
+              <i class="fas fa-envelope"></i>
+              <br>Email
+            </button>
+          </a>
+        </li>
+
+        <li class="inline-block">
+          <a href="https://www.linkedin.com/in/jess-doyle/" target="_blank">
+            <button type="button" class="contact linkedin">
+              <i class="fab fa-linkedin"></i>
+              <br>LinkedIn
+            </button>
+          </a>
+        </li>
+
+        <li class="inline-block">
+          <a href="https://github.com/jedoyle6">
+            <button type="button" class="contact github" target="_blank">
+              <i class="fab fa-github"></i>
+              <br>Github
+            </button>
+          </a>
+        </li>
+
+      </ul>
+    </section>
+
+  </main>
     
 </body>
 </html>
