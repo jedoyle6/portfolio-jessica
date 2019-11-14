@@ -168,9 +168,11 @@ button:hover {
     margin-bottom: 30px;
     border-radius: 8px;    
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+    background-color: gainsboro;
 }
 
 .project:hover {
+    background-color: rgb(175, 175, 175);
     transform: scale(1.02);
     transition: all 0.5s ease; 
 }
@@ -193,20 +195,4 @@ button:hover {
     margin-right: auto;
     width: 300px;
     border-radius: 4px;
-}
-
-.derry {
-    background-color: gainsboro;
-}
-
-.derry:hover {
-    background-color: rgb(175, 175, 175);
-}
-
-.bookends {
-    background-color: gainsboro;
-}
-
-.bookends:hover {
-    background-color: rgb(175, 175, 175);
 }
