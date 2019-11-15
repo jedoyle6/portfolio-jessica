@@ -61,10 +61,11 @@ p {
 .navbar {
     display: flex;
     position: fixed;
+    top: 0;
+    z-index: 1;
     justify-content: flex-end;
     background-color: cornflowerblue;
     width: 100%;
-    margin-top: -60px;
     padding-right: 15px;
 }
 
@@ -84,7 +85,6 @@ p {
 
 .techIcons {
     height: 40px;
-
 }
 
 #repo-link, #livehost-link {
@@ -170,10 +170,13 @@ button:hover {
     border-radius: 8px;    
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
     background-color: gainsboro;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .project:hover {
-    background-color: rgb(175, 175, 175);
+    background-color: rgb(204, 204, 204);
     transform: scale(1.02);
     transition: all 0.5s ease; 
 }
